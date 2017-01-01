@@ -15,7 +15,7 @@ export class TeslaBatteryComponent implements OnInit {
 
   ngOnInit() {
     this.tesla = this.fb.group({
-      confing: this.fb.group({
+      config: this.fb.group({
         speed: 55,
         temperature: 20,
         climate: true,
